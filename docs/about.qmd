@@ -1,0 +1,38 @@
+---
+title: "About"
+page-layout: full
+title-block-banner: false
+---
+
+::::: column-page
+## Quem é o GPS
+
+O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon e Renato Ribeiro de Lima.\
+Atualmente, o grupo é composto por 32 membros.
+
+### Pesquisadores e Assuntos
+
+::: tabs
+### Pesquisadores
+
+-   **João Domingos Scalon** – [Lattes](https://lattes.cnpq.br/1234567890123456)\
+-   **Renato Ribeiro de Lima** – [Lattes](https://lattes.cnpq.br/1234567890123456)\
+-   Ana Silva\
+-   Carlos Souza
+
+### Projetos
+
+-   Projeto 1: Estatística Espacial aplicada ao Meio Ambiente\
+-   Projeto 2: Modelagem de dados sociais\
+-   Projeto 3: Visualização interativa de mapas
+
+### Contato
+
+-   GitHub: [mikemahoney218](https://github.com/mikemahoney218)\
+-   Email: mike.mahoney.218+site\@gmail.com
+:::
+
+::: {style="text-align: center; margin-top: 30px;"}
+![](mapa_muni.png){width="500px"}
+:::
+:::::
