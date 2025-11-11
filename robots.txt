@@ -1,1 +1,1 @@
-Sitemap: https://gps/sitemap.xml
+Sitemap: https://gean-damaceno.github.io/GPS/sitemap.xml
