@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   resources:
     - keybase.txt
     - resume.pdf
@@ -23,6 +24,7 @@ website:
     right:
       - text: "Home"
         href: index.html
+        
 
       - text: "Conceitos"
         menu:

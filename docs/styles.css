@@ -51,3 +51,41 @@
   cursor: default;            /* Garante que o mouse não mude para o cursor de link */
 }
 
+/* Estilos para o carrossel de imagens */
+.carousel-container {
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.carousel {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.carousel-item img {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-indicators button {
+  background-color: #1a4d9c;
+  opacity: 0.5;
+}
+
+.carousel-indicators button.active {
+  opacity: 1;
+}
+

@@ -72,13 +72,15 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Fundadores do Grupo de Pesquisa GPS – GPS">
-<meta property="og:description" content="Technology and the Environment">
+<meta property="og:image" content="https://gean-damaceno.github.io/GPS/sobre/lattes.jpg">
 <meta property="og:site_name" content="GPS">
 <meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="Lattes">
 <meta name="twitter:title" content="Fundadores do Grupo de Pesquisa GPS – GPS">
-<meta name="twitter:description" content="Technology and the Environment">
+<meta name="twitter:image" content="https://gean-damaceno.github.io/GPS/sobre/lattes.jpg">
 <meta name="twitter:creator" content="@gps2012">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image:alt" content="Lattes">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -146,7 +148,23 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../papers/papers-pt.html">
- <span class="dropdown-text">Artigos Publicados (PT)</span></a>
+ <span class="dropdown-text">Artigos Publicados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../certificados/solicitar-certificado.html">
+ <span class="dropdown-text">Solicitar Certificado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../certificados/certificados-en.html">
+ <span class="dropdown-text">Certificados de participação da palestra</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../certificados/certificado-apresentacao.html">
+ <span class="dropdown-text">Certificado de apresentação</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../certificados/certificado-particip_gps.html">
+ <span class="dropdown-text">Certificado de participação do grupo GPS</span></a>
   </li>  
     </ul>
   </li>
@@ -157,23 +175,14 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-apresentações">    
         <li>
     <a class="dropdown-item" href="../presentations/presentations-en.html">
- <span class="dropdown-text">Apresentações (EN)</span></a>
+ <span class="dropdown-text">Apresentações realizadas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../presentations/presentations-pt.html">
- <span class="dropdown-text">Apresentações (PT)</span></a>
+    <a class="dropdown-item" href="../agenda.html">
+ <span class="dropdown-text">Agenda de apresentações</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="../blog.xml"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -208,10 +217,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Apresente aqui os professores e a história da fundação do grupo. Pode incluir fotos e uma linha do tempo.</p>
 <ul>
-<li><p>João Domingos Scalon</p></li>
-<li><p>Renato Ribeiro</p></li>
+<li><p>João Domingos Scalon <a href="http://lattes.cnpq.br/0962359014791482"><img src="lattes.jpg" class="img-fluid" width="22" alt="Lattes"></a></p></li>
+<li><p>Renato Ribeiro de Lima <a href="http://lattes.cnpq.br/7486689110603841"><img src="lattes.jpg" class="img-fluid" width="22" alt="Lattes"></a></p></li>
+<li><p>Marcelo Silva de Oliveira <a href="http://lattes.cnpq.br/1234567890123456"><img src="lattes.jpg" class="img-fluid" width="22" alt="Lattes"></a></p></li>
 </ul>
 
 
@@ -289,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/gps");
+        var filterRegex = new RegExp("https:\/\/gean-damaceno\.github\.io\/GPS\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
