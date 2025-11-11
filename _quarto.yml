@@ -10,7 +10,7 @@ project:
 website:
   title: "GPS"
   favicon: logo.png
-  site-url: https://gps
+  site-url: https://gean-damaceno.github.io/GPS/
   description: "Technology and the Environment"
   open-graph:
     locale: en_US
