@@ -1,0 +1,91 @@
+/* css styles */
+
+/* Cor de fundo da barra de navegação */
+.navbar {
+ background-color: #1a4d9c !important; /* escolha a cor */
+}
+
+/* Cor dos links da navbar - REGRA CORRIGIDA */
+.navbar-nav .nav-link {
+ color: white !important; /* cor do texto */
+}
+
+/* Cor do link ativo */
+.navbar-nav .nav-link.active {
+ color: #ffd700 !important; /* exemplo: dourado */
+}
+
+/* Opcional: Estilo explícito para os itens do dropdown */
+.dropdown-item {
+  color: #212529; /* Garante que o texto do dropdown seja escuro */
+}
+
+
+.sidebar-logo {
+ max-width: 150px;
+}
+
+.sidebar-title {
+ font-size: 1.7rem;
+}
+
+.platform-table td {
+ vertical-align: middle;
+}
+
+.platform-table td > div.sourceCode {
+ margin-top: 0.3rem;
+ margin-bottom: 0.3rem;
+}
+
+/* Em styles.css */
+
+/* Estilo para os textos descritivos dentro dos menus */
+.dropdown-menu .dropdown-item-text {
+  font-size: 0.85em;         /* Deixa a fonte um pouco menor */
+  color: #6c757d;            /* Cor cinza para dar menos destaque */
+  padding-left: 1.5rem;       /* Alinha a descrição com o texto do link acima */
+  padding-top: 0;             /* Remove o espaçamento extra em cima */
+  padding-bottom: 0.5rem;     /* Adiciona um espaço abaixo da descrição */
+  white-space: normal;        /* Permite que o texto quebre em várias linhas */
+  cursor: default;            /* Garante que o mouse não mude para o cursor de link */
+}
+
+/* Estilos para o carrossel de imagens */
+.carousel-container {
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.carousel {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.carousel-item img {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-indicators button {
+  background-color: #1a4d9c;
+  opacity: 0.5;
+}
+
+.carousel-indicators button.active {
+  opacity: 1;
+}
+

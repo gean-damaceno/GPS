@@ -1,0 +1,21 @@
+---
+title: "Livros de sugestão para pesquisa"
+---
+
+Livro de referência
+
+::: {.callout-note icon="false"}
+## Livro Publicado pelo Grupo
+
+Nosso livro, "Análise de Dados Espaciais com Aplicações em R", já está disponível para compra através da editora da UFLA.
+
+<div style="text-align: center; margin-top: 15px;">
+<a href="https://ciencia.ufla.br/todos-livros/1033-analise-de-dados-espaciais-com-aplicacoes-em-r" target="_blank">
+<img src="capa_livro.jpg" alt="Capa do livro Análise de Dados Espaciais" style="width: 300px; border: 1px solid #ddd; padding: 5px;">
+</a>
+<br>
+<a href="https://ciencia.ufla.br/todos-livros/1033-analise-de-dados-espaciais-com-aplicacoes-em-r" target="_blank">Clique aqui para comprar</a>
+</div>
+:::
+
+List here all scientific papers published by the group, with links and abstracts in English.

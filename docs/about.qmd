@@ -7,7 +7,7 @@ title-block-banner: false
 ::::: column-page
 ## Quem é o GPS
 
-O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon e Renato Ribeiro de Lima.\
+O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\
 Atualmente, o grupo é composto por 32 membros.
 
 ### Pesquisadores e Assuntos
@@ -28,8 +28,8 @@ Atualmente, o grupo é composto por 32 membros.
 
 ### Contato
 
--   GitHub: [mikemahoney218](https://github.com/mikemahoney218)\
--   Email: mike.mahoney.218+site\@gmail.com
+-   GitHub: [GPS](https://github.com/gean-damaceno/GPS/commit/7de66ba110c0a4042e2d163cce8ed6cbc5afb1ed)\
+-   Email: geandamaceno030@gmail.com
 :::
 
 ::: {style="text-align: center; margin-top: 30px;"}

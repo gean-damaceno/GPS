@@ -1,0 +1,36 @@
+---
+title: "Agenda de apresentações"
+format:
+  html:
+    title-block-style: none   # impede o título automático no topo
+---
+
+<h2 style="text-align:center;">Agenda de apresentações</h2>
+
+Segue abaixo a agenda de apresentações realizadas pelo grupo.
+
+```{=html}
+<div class="agenda-container" style="max-width: 800px; margin: 0 auto;">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Apresentador</th>
+        <th>Título</th>
+        <th>Local de Apresentação</th>
+        <th>Horas de Apresentação</th>
+        <th>Material da apresentação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>00/00/2025</td>
+        <td>Nome</td>
+        <td>titulo</td>
+        <td>Local</td>
+        <td>14h–16h</td>
+        <td><a href="#">Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

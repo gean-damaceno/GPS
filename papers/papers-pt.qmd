@@ -1,0 +1,9 @@
+---
+title: "Artigos Publicados"
+---
+
+1. [Análise de Dados Espaciais com Aplicações em R](https://ciencia.ufla.br/todos-livros/1033-analise-de-dados-espaciais-com-aplicacoes-em-r)  
+   *Resumo:* Este livro apresenta técnicas de análise de dados espaciais aplicadas em R, voltadas para diferentes áreas de pesquisa.  
+
+2. [Outro artigo publicado pelo grupo](https://ciencia.ufla.br/todos-livros/1033-analise-de-dados-espaciais-com-aplicacoes-em-r)  
+   *Resumo:* Aqui entra o resumo em português do artigo, destacando os principais resultados e contribuições.

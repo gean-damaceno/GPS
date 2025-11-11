@@ -1,0 +1,9 @@
+---
+title: "Fundadores do Grupo de Pesquisa GPS"
+---
+
+- João Domingos Scalon [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/0962359014791482)  
+
+- Renato Ribeiro de Lima [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/7486689110603841)
+
+- Marcelo Silva de Oliveira [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/1234567890123456)

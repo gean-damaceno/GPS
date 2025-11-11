@@ -1,0 +1,95 @@
+---
+title: ""
+image: logo.png
+about:
+  template: trestles
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://github.com/gean-damaceno/GPS/commit/7de66ba110c0a4042e2d163cce8ed6cbc5afb1ed"
+    - text: Email
+      url: "https://gean-damaceno.github.io/GPS/sobre/membros-ativos.html"
+comments: false
+---
+
+
+::: {.column-page}
+
+## Quem é o GPS
+
+O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.  
+Atualmente, o grupo é composto por 32 membros. O GPS propõe que os membros façam apresentações de trabalhos, durante as quais possam tirar suas dúvidas, de modo que estejam preparados para apresentar em eventos.
+
+```{=html}
+<div class="carousel-container" style="max-width: 800px; margin: 0 auto;">
+<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagens/capa_livro.jpg" class="d-block w-100" alt="Capa do Livro" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/coeficiente_arborizacao.png" class="d-block w-100" alt="Coeficiente de Arborização" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/Logo.png" class="d-block w-100" alt="Logo GPS" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/mapa_muni.png" class="d-block w-100" alt="Mapa Municipal" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/p_valor_arborizacao.png" class="d-block w-100" alt="P-valor de Arborização" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/grupoo.jpg" class="d-block w-100" alt="Grupo GPS" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/minas.jpg" class="d-block w-100" alt="Minas Gerais" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/geoestatistica.jpg" class="d-block w-100" alt="Geoestatística" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/IMG-20251110-WA0113.jpg" class="d-block w-100" alt="GPS" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/IMG-20251110-WA0114.jpg" class="d-block w-100" alt="GPS" style="max-height: 500px; object-fit: contain;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+</div>
+
+<script>
+// Garantir que o carrossel seja inicializado após o carregamento da página
+document.addEventListener('DOMContentLoaded', function() {
+  var carouselElement = document.querySelector('#imageCarousel');
+  if (carouselElement) {
+    var carousel = new bootstrap.Carousel(carouselElement, {
+      interval: 3000,
+      ride: 'carousel'
+    });
+  }
+});
+</script>
+```
+
+

@@ -1,0 +1,19 @@
+---
+title: "O que é a Estatística Espacial?"
+---
+
+De acordo com Scalon (2024), a Estatística Espacial é um ramo da Estatística que se concentra na análise de dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões.
+A Estatística Espacial fornece informações para responder a questões científicas em que a informa-
+ção de localização espacial está presente nos dados e é relevante para as perguntas formuladas. O papel da teoria das probabilidades na Estatística Espacial é modelar a incerteza, tanto na teoria científica subjacente
+à questão, quanto nos dados espaciais provenientes das medições do processo espacial, que representa essa teoria científica (Cressie; Moores, 2023).
+
+De acordo com Scalon (2024), os dados espaciais podem ser caracterizados da seguinte forma:
+
+• Dados de processos pontuais: são dados espaciais em que as próprias localizações dos eventos obser-
+vados representam o principal objeto de interesse;
+
+• Dados geoestatísticos: também chamados de dados de superfícies contínuas, representam variáveis
+observadas em locais específicos dentro de uma região de estudo, mas assumem continuidade espacial;
+
+• Dados de área: também conhecidos como dados de lattice ou dados de superfície discreta, são dados
+espaciais indexados a sub-regiões que constituem uma partição de um dominio contínuo.

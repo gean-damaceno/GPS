@@ -1,0 +1,798 @@
+---
+title: "Certificados de Participação da Palestra"
+---
+
+Preencha o formulário abaixo para gerar certificados de participação nas palestras. Você pode gerar certificados para múltiplas pessoas de uma vez.
+
+```{=html}
+<style>
+.login-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #1a4d9c;
+}
+
+.login-container h2 {
+  color: #1a4d9c;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.history-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.history-container h3 {
+  color: #1a4d9c;
+  margin-bottom: 1rem;
+}
+
+.history-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border-left: 4px solid #1a4d9c;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1a4d9c;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #1a4d9c;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #153d7a;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.certificate-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border: 3px solid #1a4d9c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.certificate-logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.certificate-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a4d9c;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.certificate-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.certificate-body {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.certificate-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a4d9c;
+  margin: 1.5rem 0;
+  text-decoration: underline;
+}
+
+.certificate-details {
+  margin: 2rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.certificate-signatures {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #1a4d9c;
+}
+
+.signature-box {
+  text-align: center;
+  width: 250px;
+}
+
+.signature-line {
+  border-top: 2px solid #1a4d9c;
+  margin: 3rem auto 0.5rem;
+  width: 200px;
+}
+
+.signature-name {
+  font-weight: bold;
+  color: #1a4d9c;
+  margin-top: 0.5rem;
+}
+
+.signature-title {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+.certificates-list {
+  margin-top: 2rem;
+}
+
+.certificate-item {
+  margin-bottom: 2rem;
+  page-break-after: always;
+}
+
+@media print {
+  .form-container, .history-container {
+    display: none;
+  }
+  .certificate-container {
+    border: none;
+    box-shadow: none;
+  }
+}
+</style>
+
+<div class="login-container" id="loginContainer">
+  <h2>🔒 Acesso Restrito ao Coordenador</h2>
+  <p>Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.</p>
+  
+  <form id="loginForm">
+    <div class="form-group">
+      <label>Senha do Coordenador:</label>
+      <input type="password" id="senhaInput" placeholder="Digite a senha" required>
+    </div>
+    
+    <div id="setupPassword" style="display: none;">
+      <div class="form-group">
+        <label>Definir Nova Senha:</label>
+        <input type="password" id="novaSenha" placeholder="Digite uma nova senha" required>
+      </div>
+      <div class="form-group">
+        <label>Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" placeholder="Confirme a senha" required>
+      </div>
+    </div>
+    
+    <button type="button" class="btn btn-primary" id="btnLogin">Entrar</button>
+    <button type="button" class="btn btn-info" id="btnSetupPassword" style="display: none;" onclick="mostrarSetupSenha()">Definir Senha</button>
+  </form>
+  
+  <div id="loginError" style="color: #dc3545; margin-top: 1rem; text-align: center; display: none;"></div>
+</div>
+
+<div class="form-container" id="formContainer">
+  <div style="text-align: right; margin-bottom: 1rem;">
+    <button type="button" class="btn btn-danger" onclick="sair()">Sair</button>
+  </div>
+  
+  <div id="solicitacoesContainer" style="margin-bottom: 2rem; padding: 1.5rem; background: #fff; border-radius: 8px; border: 2px solid #1a4d9c;">
+    <h3 style="color: #1a4d9c; margin-bottom: 1rem;">📋 Solicitações Pendentes</h3>
+    <div id="listaSolicitacoes"></div>
+    <button type="button" class="btn btn-info" onclick="atualizarSolicitacoes()">Atualizar Lista</button>
+  </div>
+  
+  <h2>Gerador de Certificados de Participação</h2>
+  
+  <form id="certificateForm">
+    <div class="form-group">
+      <label>Título da Palestra:</label>
+      <input type="text" id="tituloPalestra" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Nome do Palestrante:</label>
+      <input type="text" id="nomePalestrante" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Data da Palestra:</label>
+      <input type="date" id="dataPalestra" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Local:</label>
+      <input type="text" id="local" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Carga Horária:</label>
+      <input type="text" id="horas" placeholder="Ex: 1 hora" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Nome do Coordenador:</label>
+      <input type="text" id="nomeCoordenador" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Data de Emissão:</label>
+      <input type="date" id="dataEmissao" required>
+    </div>
+    
+    <div class="form-group">
+      <label>Participantes (um por linha ou separados por vírgula):</label>
+      <textarea id="participantes" rows="5" placeholder="Digite os nomes dos participantes, um por linha ou separados por vírgula" required></textarea>
+    </div>
+    
+    <button type="button" class="btn btn-primary" id="btnGerar">Gerar Certificados</button>
+    <button type="button" class="btn btn-info" id="btnVerHistorico">Ver Histórico</button>
+    <button type="button" class="btn btn-success" id="btnDownloadAll" style="display:none;">Baixar Todos os Certificados</button>
+  </form>
+</div>
+
+<div class="history-container" id="historyContainer">
+  <h3>Histórico de Certificados Gerados</h3>
+  <div id="historyList"></div>
+  <button type="button" class="btn btn-primary" onclick="fecharHistorico()">Fechar Histórico</button>
+</div>
+
+<div id="certificatesContainer" class="certificates-list"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+// Sistema de autenticação
+const SENHA_KEY = 'gps_coordenador_senha_palestra';
+const AUTENTICADO_KEY = 'gps_coordenador_autenticado_palestra';
+
+document.addEventListener('DOMContentLoaded', function() {
+  verificarAutenticacao();
+  
+  const btnGerar = document.getElementById('btnGerar');
+  const btnVerHistorico = document.getElementById('btnVerHistorico');
+  const btnLogin = document.getElementById('btnLogin');
+  
+  if (btnGerar) {
+    btnGerar.addEventListener('click', gerarCertificados);
+  }
+  
+  if (btnVerHistorico) {
+    btnVerHistorico.addEventListener('click', mostrarHistorico);
+  }
+  
+  if (btnLogin) {
+    btnLogin.addEventListener('click', fazerLogin);
+  }
+  
+  // Verificar se já existe senha
+  const senhaSalva = localStorage.getItem(SENHA_KEY);
+  if (!senhaSalva) {
+    document.getElementById('btnSetupPassword').style.display = 'inline-block';
+  }
+});
+
+function verificarAutenticacao() {
+  const autenticado = sessionStorage.getItem(AUTENTICADO_KEY);
+  if (autenticado === 'true') {
+    mostrarFormulario();
+  } else {
+    mostrarLogin();
+  }
+}
+
+function mostrarLogin() {
+  document.getElementById('loginContainer').style.display = 'block';
+  document.getElementById('formContainer').style.display = 'none';
+  document.getElementById('historyContainer').style.display = 'none';
+  document.getElementById('certificatesContainer').style.display = 'none';
+}
+
+function mostrarFormulario() {
+  document.getElementById('loginContainer').style.display = 'none';
+  document.getElementById('formContainer').style.display = 'block';
+  atualizarSolicitacoes();
+}
+
+function mostrarSetupSenha() {
+  document.getElementById('setupPassword').style.display = 'block';
+  document.getElementById('btnSetupPassword').style.display = 'none';
+}
+
+function fazerLogin() {
+  const senhaInput = document.getElementById('senhaInput').value;
+  const novaSenha = document.getElementById('novaSenha').value;
+  const confirmarSenha = document.getElementById('confirmarSenha').value;
+  const errorDiv = document.getElementById('loginError');
+  
+  // Se está definindo senha pela primeira vez
+  if (document.getElementById('setupPassword').style.display !== 'none') {
+    if (!novaSenha || novaSenha.length < 4) {
+      errorDiv.textContent = 'A senha deve ter pelo menos 4 caracteres.';
+      errorDiv.style.display = 'block';
+      return;
+    }
+    
+    if (novaSenha !== confirmarSenha) {
+      errorDiv.textContent = 'As senhas não coincidem.';
+      errorDiv.style.display = 'block';
+      return;
+    }
+    
+    localStorage.setItem(SENHA_KEY, btoa(novaSenha));
+    sessionStorage.setItem(AUTENTICADO_KEY, 'true');
+    errorDiv.style.display = 'none';
+    mostrarFormulario();
+    return;
+  }
+  
+  // Verificar senha existente
+  const senhaSalva = localStorage.getItem(SENHA_KEY);
+  if (!senhaSalva) {
+    errorDiv.textContent = 'Por favor, defina uma senha primeiro.';
+    errorDiv.style.display = 'block';
+    document.getElementById('btnSetupPassword').style.display = 'inline-block';
+    return;
+  }
+  
+  const senhaCorreta = atob(senhaSalva);
+  if (senhaInput === senhaCorreta) {
+    sessionStorage.setItem(AUTENTICADO_KEY, 'true');
+    errorDiv.style.display = 'none';
+    document.getElementById('senhaInput').value = '';
+    mostrarFormulario();
+  } else {
+    errorDiv.textContent = 'Senha incorreta. Tente novamente.';
+    errorDiv.style.display = 'block';
+    document.getElementById('senhaInput').value = '';
+  }
+}
+
+function sair() {
+  sessionStorage.removeItem(AUTENTICADO_KEY);
+  mostrarLogin();
+  document.getElementById('senhaInput').value = '';
+  document.getElementById('loginError').style.display = 'none';
+}
+
+function atualizarSolicitacoes() {
+  const solicitacoes = JSON.parse(localStorage.getItem('solicitacoes_certificados') || '[]');
+  const pendentes = solicitacoes.filter(s => s.status === 'pendente' && s.tipo === 'participacao_palestra');
+  const lista = document.getElementById('listaSolicitacoes');
+  
+  if (pendentes.length === 0) {
+    lista.innerHTML = '<p>Nenhuma solicitação pendente.</p>';
+    return;
+  }
+  
+  lista.innerHTML = pendentes.map(sol => `
+    <div style="padding: 1rem; margin-bottom: 1rem; background: #f8f9fa; border-left: 4px solid #1a4d9c; border-radius: 4px;">
+      <p><strong>Nome:</strong> ${sol.nome}</p>
+      <p><strong>Email:</strong> ${sol.email}</p>
+      <p><strong>Título da Palestra:</strong> ${sol.tituloPalestra || 'Não informado'}</p>
+      <p><strong>Palestrante:</strong> ${sol.nomePalestrante || 'Não informado'}</p>
+      <p><strong>Data da Palestra:</strong> ${sol.dataPalestra || 'Não informada'}</p>
+      <p><strong>Data da Solicitação:</strong> ${new Date(sol.data).toLocaleString('pt-BR')}</p>
+      ${sol.observacoes ? `<p><strong>Observações:</strong> ${sol.observacoes}</p>` : ''}
+      <button class="btn btn-success" onclick="gerarCertificadoSolicitacao(${sol.id})">Gerar Certificado</button>
+      <button class="btn btn-danger" onclick="rejeitarSolicitacao(${sol.id})">Rejeitar</button>
+    </div>
+  `).join('');
+}
+
+function gerarCertificadoSolicitacao(id) {
+  const solicitacoes = JSON.parse(localStorage.getItem('solicitacoes_certificados') || '[]');
+  const sol = solicitacoes.find(s => s.id === id);
+  
+  if (!sol) {
+    alert('Solicitação não encontrada.');
+    return;
+  }
+  
+  // Preencher formulário automaticamente
+  document.getElementById('tituloPalestra').value = sol.tituloPalestra || '';
+  document.getElementById('nomePalestrante').value = sol.nomePalestrante || '';
+  document.getElementById('dataPalestra').value = sol.dataPalestra || '';
+  document.getElementById('local').value = 'Anfiteatro II do ICET';
+  document.getElementById('horas').value = '1 hora';
+  document.getElementById('participantes').value = sol.nome;
+  
+  // Marcar solicitação como processada
+  sol.status = 'processada';
+  localStorage.setItem('solicitacoes_certificados', JSON.stringify(solicitacoes));
+  
+  // Gerar certificado
+  gerarCertificados();
+  
+  // Salvar certificado gerado para o solicitante
+  const certificadoGerado = {
+    id: Date.now(),
+    tipo: 'participacao_palestra',
+    tipoNome: 'Certificado de Participação em Palestra',
+    nome: sol.nome,
+    email: sol.email,
+    dataGeracao: new Date().toISOString(),
+    status: 'disponivel',
+    dados: {
+      titulo: sol.tituloPalestra,
+      palestrante: sol.nomePalestrante,
+      data: sol.dataPalestra
+    }
+  };
+  
+  let certificadosGerados = JSON.parse(localStorage.getItem('certificados_gerados') || '[]');
+  certificadosGerados.push(certificadoGerado);
+  localStorage.setItem('certificados_gerados', JSON.stringify(certificadosGerados));
+  
+  atualizarSolicitacoes();
+  alert('Certificado gerado com sucesso! O solicitante poderá baixá-lo agora.');
+}
+
+function rejeitarSolicitacao(id) {
+  if (!confirm('Tem certeza que deseja rejeitar esta solicitação?')) return;
+  
+  const solicitacoes = JSON.parse(localStorage.getItem('solicitacoes_certificados') || '[]');
+  const sol = solicitacoes.find(s => s.id === id);
+  if (sol) {
+    sol.status = 'rejeitada';
+    localStorage.setItem('solicitacoes_certificados', JSON.stringify(solicitacoes));
+    atualizarSolicitacoes();
+  }
+}
+
+function formatarData(data) {
+  if (!data) return '';
+  try {
+    const date = new Date(data + 'T00:00:00');
+    if (isNaN(date.getTime())) return data;
+    const dia = date.getDate().toString().padStart(2, '0');
+    const mes = date.getMonth() + 1;
+    const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 
+                   'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+    const ano = date.getFullYear();
+    return `${dia} de ${meses[mes-1]} de ${ano}`;
+  } catch (e) {
+    return data;
+  }
+}
+
+function salvarNoHistorico(dados) {
+  try {
+    let historico = JSON.parse(localStorage.getItem('certificados_palestra') || '[]');
+    const registro = {
+      id: Date.now(),
+      data: new Date().toISOString(),
+      ...dados
+    };
+    historico.unshift(registro);
+    if (historico.length > 50) historico = historico.slice(0, 50);
+    localStorage.setItem('certificados_palestra', JSON.stringify(historico));
+  } catch (e) {
+    console.error('Erro ao salvar histórico:', e);
+  }
+}
+
+function carregarHistorico() {
+  try {
+    return JSON.parse(localStorage.getItem('certificados_palestra') || '[]');
+  } catch (e) {
+    return [];
+  }
+}
+
+function mostrarHistorico() {
+  const historico = carregarHistorico();
+  const container = document.getElementById('historyContainer');
+  const list = document.getElementById('historyList');
+  
+  if (!container || !list) return;
+  
+  if (historico.length === 0) {
+    list.innerHTML = '<p>Nenhum certificado gerado ainda.</p>';
+  } else {
+    list.innerHTML = historico.map(item => `
+      <div class="history-item">
+        <p><strong>Data de Geração:</strong> ${new Date(item.data).toLocaleString('pt-BR')}</p>
+        <p><strong>Título da Palestra:</strong> ${item.titulo}</p>
+        <p><strong>Palestrante:</strong> ${item.palestrante}</p>
+        <p><strong>Participantes:</strong> ${item.participantes.join(', ')}</p>
+        <p><strong>Data da Palestra:</strong> ${item.dataPalestra}</p>
+        <button class="btn btn-success" onclick="regenerarCertificado(${item.id})">Regenerar</button>
+      </div>
+    `).join('');
+  }
+  
+  container.style.display = 'block';
+  window.scrollTo({ top: container.offsetTop, behavior: 'smooth' });
+}
+
+function fecharHistorico() {
+  const container = document.getElementById('historyContainer');
+  if (container) container.style.display = 'none';
+}
+
+function regenerarCertificado(id) {
+  const historico = carregarHistorico();
+  const item = historico.find(h => h.id === id);
+  if (!item) return;
+  
+  document.getElementById('tituloPalestra').value = item.titulo;
+  document.getElementById('nomePalestrante').value = item.palestrante;
+  document.getElementById('dataPalestra').value = item.dataPalestraRaw;
+  document.getElementById('local').value = item.local;
+  document.getElementById('horas').value = item.horas;
+  document.getElementById('nomeCoordenador').value = item.coordenador;
+  document.getElementById('dataEmissao').value = item.dataEmissaoRaw;
+  document.getElementById('participantes').value = item.participantes.join('\n');
+  
+  fecharHistorico();
+  gerarCertificados();
+}
+
+function gerarCertificados() {
+  try {
+    const titulo = document.getElementById('tituloPalestra').value;
+    const palestrante = document.getElementById('nomePalestrante').value;
+    const dataRaw = document.getElementById('dataPalestra').value;
+    const data = formatarData(dataRaw);
+    const local = document.getElementById('local').value;
+    const horas = document.getElementById('horas').value;
+    const coordenador = document.getElementById('nomeCoordenador').value;
+    const dataEmissaoRaw = document.getElementById('dataEmissao').value;
+    const dataEmissao = formatarData(dataEmissaoRaw);
+    
+    if (!titulo || !palestrante || !dataRaw || !local || !horas || !coordenador || !dataEmissaoRaw) {
+      alert('Por favor, preencha todos os campos obrigatórios.');
+      return;
+    }
+    
+    const participantesText = document.getElementById('participantes').value;
+    const participantes = participantesText.split(/[,\n]/)
+      .map(p => p.trim())
+      .filter(p => p.length > 0);
+    
+    if (participantes.length === 0) {
+      alert('Por favor, adicione pelo menos um participante.');
+      return;
+    }
+    
+    const container = document.getElementById('certificatesContainer');
+    if (!container) {
+      alert('Erro: Container de certificados não encontrado.');
+      return;
+    }
+    
+    container.innerHTML = '';
+    
+    participantes.forEach((participante, index) => {
+      const certHTML = `
+        <div class="certificate-item" id="cert-${index}">
+          <div class="certificate-container">
+            <div class="certificate-header">
+              <img src="../Logo.png" alt="Logo GPS" class="certificate-logo" onerror="this.style.display='none'">
+              <h1 class="certificate-title">Certificado de Participação</h1>
+              <p class="certificate-subtitle">Grupo de Pesquisa em Estatística Espacial - GPS</p>
+            </div>
+            
+            <div class="certificate-body">
+              <p>Certificamos que</p>
+              <div class="certificate-name">${participante}</div>
+              <p>participou da palestra intitulada</p>
+              <div class="certificate-name">"${titulo}"</div>
+              <div class="certificate-details">
+                <p>ministrada por <strong>${palestrante}</strong></p>
+                <p>realizada no dia <strong>${data}</strong></p>
+                <p>no <strong>${local}</strong></p>
+                <p>com carga horária de <strong>${horas}</strong>.</p>
+              </div>
+            </div>
+            
+            <div class="certificate-signatures">
+              <div class="signature-box">
+                <div class="signature-line"></div>
+                <div class="signature-name">${coordenador}</div>
+                <div class="signature-title">Coordenador do GPS</div>
+              </div>
+              <div class="signature-box">
+                <div class="signature-line"></div>
+                <div class="signature-name">${palestrante}</div>
+                <div class="signature-title">Palestrante</div>
+              </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #666;">
+              <p>Lavras, ${dataEmissao}</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 1rem;">
+              <button class="btn btn-success" onclick="baixarCertificado(${index}, '${participante.replace(/'/g, "\\'")}')">Baixar Certificado</button>
+            </div>
+          </div>
+        </div>
+      `;
+      container.innerHTML += certHTML;
+    });
+    
+    salvarNoHistorico({
+      titulo,
+      palestrante,
+      participantes,
+      dataPalestra: data,
+      dataPalestraRaw: dataRaw,
+      local,
+      horas,
+      coordenador,
+      dataEmissao,
+      dataEmissaoRaw
+    });
+    
+    const btnDownloadAll = document.getElementById('btnDownloadAll');
+    if (btnDownloadAll) btnDownloadAll.style.display = 'inline-block';
+    
+    window.scrollTo({ top: container.offsetTop, behavior: 'smooth' });
+  } catch (error) {
+    console.error('Erro ao gerar certificados:', error);
+    alert('Erro ao gerar certificados. Verifique o console para mais detalhes.');
+  }
+}
+
+function baixarCertificado(index, nome) {
+  try {
+    const element = document.getElementById(`cert-${index}`);
+    if (!element) {
+      alert('Certificado não encontrado.');
+      return;
+    }
+    
+    // Aguardar um pouco para garantir que o elemento está renderizado
+    setTimeout(() => {
+      const opt = {
+        margin: [10, 10, 10, 10],
+        filename: `Certificado_Participacao_${nome.replace(/[^a-zA-Z0-9]/g, '_')}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { 
+          scale: 2,
+          useCORS: true,
+          logging: false,
+          windowWidth: element.scrollWidth,
+          windowHeight: element.scrollHeight
+        },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'landscape' }
+      };
+      
+      html2pdf().set(opt).from(element).save().catch(err => {
+        console.error('Erro ao gerar PDF:', err);
+        // Fallback: usar window.print
+        const printWindow = window.open('', '_blank');
+        printWindow.document.write('<html><head><title>Certificado</title>');
+        printWindow.document.write('<style>@media print { body { margin: 0; } @page { margin: 0; size: landscape; } }</style>');
+        printWindow.document.write('</head><body>');
+        printWindow.document.write(element.innerHTML);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        printWindow.print();
+      });
+    }, 500);
+  } catch (error) {
+    console.error('Erro ao baixar certificado:', error);
+    // Fallback: usar window.print
+    const element = document.getElementById(`cert-${index}`);
+    if (element) {
+      const printWindow = window.open('', '_blank');
+      printWindow.document.write('<html><head><title>Certificado</title>');
+      printWindow.document.write('<style>@media print { body { margin: 0; } @page { margin: 0; size: landscape; } }</style>');
+      printWindow.document.write('</head><body>');
+      printWindow.document.write(element.innerHTML);
+      printWindow.document.write('</body></html>');
+      printWindow.document.close();
+      printWindow.print();
+    } else {
+      alert('Erro ao baixar certificado. Tente usar Ctrl+P para imprimir.');
+    }
+  }
+}
+
+function baixarTodos() {
+  const certificados = document.querySelectorAll('.certificate-item');
+  certificados.forEach((cert, index) => {
+    setTimeout(() => {
+      const nomeElement = cert.querySelector('.certificate-name');
+      const nome = nomeElement ? nomeElement.textContent.trim() : `Certificado_${index + 1}`;
+      baixarCertificado(index, nome);
+    }, index * 1000);
+  });
+}
+</script>
+```

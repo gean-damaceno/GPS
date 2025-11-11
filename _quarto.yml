@@ -1,0 +1,82 @@
+project:
+  type: website
+  resources:
+    - keybase.txt
+    - resume.pdf
+    - cv.pdf
+    - imagens
+    - material_apresentacao_pdf
+
+website:
+  title: "GPS"
+  favicon: logo.png
+  site-url: https://gps
+  description: "Technology and the Environment"
+  open-graph:
+    locale: en_US
+  twitter-card:
+    creator: "@gps2012"
+  navbar:
+    logo: logo.png
+    logo-alt: "Logo GPS"
+    sticky: true
+    right:
+      - text: "Home"
+        href: index.html
+
+      - text: "Conceitos"
+        menu:
+          - text: "O que é a Estatística Espacial?"
+            href: conceitos/o-que-e-espacial.qmd
+          - text: "Por que estudar Estatística Espacial?"
+            href: conceitos/por-que-estudar-espacial.qmd
+
+      - text: "Sobre o Grupo"
+        menu:
+          - text: "Fundadores do Grupo de Pesquisa"
+            href: sobre/fundadores.qmd
+          - text: "Membros Ativos do Grupo"
+            href: sobre/membros-ativos.html
+
+      - text: "Materiais"
+        menu:
+          - text: "Livros"
+            href: papers/papers-en.qmd
+          - text: "Artigos Publicados"
+            href: papers/papers-pt.qmd
+          
+          - text: "Solicitar Certificado"
+            href: certificados/solicitar-certificado.qmd
+          - text: "Certificados de participação da palestra"
+            href: certificados/certificados-en.qmd
+          - text: "Certificado de apresentação"
+            href: certificados/certificado-apresentacao.qmd
+          - text: "Certificado de participação do grupo GPS"
+            href: certificados/certificado-particip_gps.qmd
+          
+
+      - text: "Apresentações"
+        menu:
+          - text: "Apresentações realizadas"
+            href: presentations/presentations-en.qmd
+          - text: "Agenda de apresentações"
+            href: agenda.qmd
+            
+
+      
+
+      
+
+     
+        
+      
+    
+
+  page-footer:
+    left: "© Copyright 2025 Grupo de Pesquisa em Estatística Espacial - GPS"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+format:
+  html:
+    theme: [sandstone, _variables.scss]
+    css: styles.css

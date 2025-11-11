@@ -1,0 +1,494 @@
+---
+title: "Solicitar Certificado"
+---
+
+Solicite seu certificado de participação, apresentação ou membro do GPS. O coordenador receberá sua solicitação e gerará o certificado.
+
+```{=html}
+<style>
+.solicitacao-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.solicitacao-container h2 {
+  color: #1a4d9c;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1a4d9c;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #1a4d9c;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #153d7a;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+}
+
+.certificados-disponiveis {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 2px solid #1a4d9c;
+}
+
+.certificado-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border-left: 4px solid #28a745;
+  border-radius: 4px;
+}
+
+.certificado-item h4 {
+  color: #1a4d9c;
+  margin-bottom: 0.5rem;
+}
+</style>
+
+<div class="solicitacao-container">
+  <h2>📋 Solicitar Certificado</h2>
+  
+  <div id="alertContainer"></div>
+  
+  <form id="solicitacaoForm">
+    <div class="form-group">
+      <label>Tipo de Certificado:</label>
+      <select id="tipoCertificado" required onchange="atualizarCampos()">
+        <option value="">Selecione o tipo</option>
+        <option value="participacao_palestra">Certificado de Participação em Palestra</option>
+        <option value="apresentacao">Certificado de Apresentação</option>
+        <option value="participacao_gps">Certificado de Participação no GPS</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label>Seu Nome Completo:</label>
+      <input type="text" id="nomeSolicitante" required placeholder="Digite seu nome completo">
+    </div>
+    
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" id="emailSolicitante" required placeholder="seu@email.com">
+    </div>
+    
+    <!-- Campos para Participação em Palestra -->
+    <div id="camposPalestra" style="display: none;">
+      <div class="form-group">
+        <label>Título da Palestra:</label>
+        <input type="text" id="tituloPalestra" placeholder="Título da palestra que você participou">
+      </div>
+      <div class="form-group">
+        <label>Data da Palestra:</label>
+        <input type="date" id="dataPalestra">
+      </div>
+      <div class="form-group">
+        <label>Nome do Palestrante:</label>
+        <input type="text" id="nomePalestrante" placeholder="Nome do palestrante">
+      </div>
+    </div>
+    
+    <!-- Campos para Apresentação -->
+    <div id="camposApresentacao" style="display: none;">
+      <div class="form-group">
+        <label>Título do Trabalho Apresentado:</label>
+        <input type="text" id="tituloTrabalho" placeholder="Título do trabalho que você apresentou">
+      </div>
+      <div class="form-group">
+        <label>Data da Apresentação:</label>
+        <input type="date" id="dataApresentacao">
+      </div>
+    </div>
+    
+    <!-- Campos para Participação no GPS -->
+    <div id="camposGPS" style="display: none;">
+      <div class="form-group">
+        <label>Data de Início como Membro:</label>
+        <input type="date" id="dataInicioGPS">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label>Observações (opcional):</label>
+      <textarea id="observacoes" rows="3" placeholder="Informações adicionais que possam ajudar"></textarea>
+    </div>
+    
+    <button type="button" class="btn btn-primary" onclick="enviarSolicitacao()">Enviar Solicitação</button>
+  </form>
+</div>
+
+<div class="certificados-disponiveis" id="certificadosDisponiveis" style="display: none;">
+  <h3>✅ Seus Certificados Disponíveis</h3>
+  <div id="listaCertificados"></div>
+</div>
+
+<script>
+function atualizarCampos() {
+  const tipo = document.getElementById('tipoCertificado').value;
+  
+  // Esconder todos os campos
+  document.getElementById('camposPalestra').style.display = 'none';
+  document.getElementById('camposApresentacao').style.display = 'none';
+  document.getElementById('camposGPS').style.display = 'none';
+  
+  // Mostrar campos relevantes
+  if (tipo === 'participacao_palestra') {
+    document.getElementById('camposPalestra').style.display = 'block';
+  } else if (tipo === 'apresentacao') {
+    document.getElementById('camposApresentacao').style.display = 'block';
+  } else if (tipo === 'participacao_gps') {
+    document.getElementById('camposGPS').style.display = 'block';
+  }
+  
+  // Limpar campos
+  document.getElementById('tituloPalestra').value = '';
+  document.getElementById('dataPalestra').value = '';
+  document.getElementById('nomePalestrante').value = '';
+  document.getElementById('tituloTrabalho').value = '';
+  document.getElementById('dataApresentacao').value = '';
+  document.getElementById('dataInicioGPS').value = '';
+}
+
+function mostrarAlerta(tipo, mensagem) {
+  const container = document.getElementById('alertContainer');
+  const alertClass = tipo === 'success' ? 'alert-success' : 'alert-info';
+  container.innerHTML = `<div class="alert ${alertClass}">${mensagem}</div>`;
+  setTimeout(() => {
+    container.innerHTML = '';
+  }, 5000);
+}
+
+function enviarSolicitacao() {
+  const tipo = document.getElementById('tipoCertificado').value;
+  const nome = document.getElementById('nomeSolicitante').value;
+  const email = document.getElementById('emailSolicitante').value;
+  const observacoes = document.getElementById('observacoes').value;
+  
+  if (!tipo || !nome || !email) {
+    mostrarAlerta('info', 'Por favor, preencha todos os campos obrigatórios.');
+    return;
+  }
+  
+  const solicitacao = {
+    id: Date.now(),
+    data: new Date().toISOString(),
+    tipo,
+    nome,
+    email,
+    observacoes,
+    status: 'pendente'
+  };
+  
+  // Adicionar campos específicos
+  if (tipo === 'participacao_palestra') {
+    solicitacao.tituloPalestra = document.getElementById('tituloPalestra').value;
+    solicitacao.dataPalestra = document.getElementById('dataPalestra').value;
+    solicitacao.nomePalestrante = document.getElementById('nomePalestrante').value;
+  } else if (tipo === 'apresentacao') {
+    solicitacao.tituloTrabalho = document.getElementById('tituloTrabalho').value;
+    solicitacao.dataApresentacao = document.getElementById('dataApresentacao').value;
+  } else if (tipo === 'participacao_gps') {
+    solicitacao.dataInicio = document.getElementById('dataInicioGPS').value;
+  }
+  
+  // Salvar solicitação
+  let solicitacoes = JSON.parse(localStorage.getItem('solicitacoes_certificados') || '[]');
+  solicitacoes.push(solicitacao);
+  localStorage.setItem('solicitacoes_certificados', JSON.stringify(solicitacoes));
+  
+  // Limpar formulário
+  document.getElementById('solicitacaoForm').reset();
+  document.getElementById('camposPalestra').style.display = 'none';
+  document.getElementById('camposApresentacao').style.display = 'none';
+  document.getElementById('camposGPS').style.display = 'none';
+  
+  mostrarAlerta('success', 'Solicitação enviada com sucesso! O coordenador receberá sua solicitação e gerará o certificado em breve.');
+  
+  // Verificar certificados disponíveis
+  verificarCertificadosDisponiveis(email);
+}
+
+function verificarCertificadosDisponiveis(email) {
+  if (!email) return;
+  
+  const certificados = JSON.parse(localStorage.getItem('certificados_gerados') || '[]');
+  const meusCertificados = certificados.filter(c => c.email.toLowerCase() === email.toLowerCase() && c.status === 'disponivel');
+  
+  const container = document.getElementById('certificadosDisponiveis');
+  const lista = document.getElementById('listaCertificados');
+  
+  if (meusCertificados.length > 0) {
+    lista.innerHTML = meusCertificados.map(cert => `
+      <div class="certificado-item">
+        <h4>${cert.tipoNome}</h4>
+        <p><strong>Nome:</strong> ${cert.nome}</p>
+        <p><strong>Data de Geração:</strong> ${new Date(cert.dataGeracao).toLocaleDateString('pt-BR')}</p>
+        <button class="btn btn-success" onclick="baixarCertificadoGerado(${cert.id})">Baixar Certificado</button>
+      </div>
+    `).join('');
+    
+    container.style.display = 'block';
+    window.scrollTo({ top: container.offsetTop, behavior: 'smooth' });
+  } else {
+    container.style.display = 'none';
+  }
+}
+
+// Verificar certificados quando email for inserido
+document.addEventListener('DOMContentLoaded', function() {
+  const emailInput = document.getElementById('emailSolicitante');
+  const email = new URLSearchParams(window.location.search).get('email');
+  
+  if (email) {
+    emailInput.value = email;
+    verificarCertificadosDisponiveis(email);
+  }
+  
+  // Verificar certificados quando email mudar
+  emailInput.addEventListener('blur', function() {
+    if (this.value) {
+      verificarCertificadosDisponiveis(this.value);
+    }
+  });
+});
+
+function baixarCertificadoGerado(id) {
+  const certificados = JSON.parse(localStorage.getItem('certificados_gerados') || '[]');
+  const cert = certificados.find(c => c.id == id);
+  
+  if (!cert) {
+    alert('Certificado não encontrado.');
+    return;
+  }
+  
+  // Buscar dados completos do certificado no histórico do coordenador
+  let dadosCompletos = null;
+  
+  if (cert.tipo === 'apresentacao') {
+    const historico = JSON.parse(localStorage.getItem('certificados_apresentacao') || '[]');
+    dadosCompletos = historico.find(h => {
+      const apresentadores = Array.isArray(h.apresentadores) ? h.apresentadores : [h.apresentadores];
+      return apresentadores.includes(cert.nome) && 
+             (h.titulo === cert.dados.titulo || !cert.dados.titulo);
+    });
+  } else if (cert.tipo === 'participacao_palestra') {
+    const historico = JSON.parse(localStorage.getItem('certificados_palestra') || '[]');
+    dadosCompletos = historico.find(h => {
+      const participantes = Array.isArray(h.participantes) ? h.participantes : [h.participantes];
+      return participantes.includes(cert.nome) && 
+             (h.titulo === cert.dados.titulo || !cert.dados.titulo);
+    });
+  } else if (cert.tipo === 'participacao_gps') {
+    const historico = JSON.parse(localStorage.getItem('certificados_gps') || '[]');
+    dadosCompletos = historico.find(h => {
+      const membros = Array.isArray(h.membros) ? h.membros : [h.membros];
+      return membros.includes(cert.nome);
+    });
+  }
+  
+  // Se não encontrou dados completos, usar os dados básicos do certificado
+  if (!dadosCompletos) {
+    dadosCompletos = cert.dados || {};
+  }
+  
+  // Gerar certificado na página
+  gerarCertificadoParaDownload(cert, dadosCompletos);
+}
+
+function gerarCertificadoParaDownload(cert, dados) {
+  // Criar uma nova janela com o certificado
+  const printWindow = window.open('', '_blank');
+  const tipoNome = cert.tipoNome;
+  
+  let htmlCertificado = '';
+  
+  if (cert.tipo === 'apresentacao') {
+    htmlCertificado = `
+      <div style="max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border: 3px solid #1a4d9c;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h1 style="font-size: 2.5rem; font-weight: bold; color: #1a4d9c; margin-bottom: 0.5rem; text-transform: uppercase;">Certificado de Apresentação</h1>
+          <p style="font-size: 1.2rem; color: #666;">Grupo de Pesquisa em Estatística Espacial - GPS</p>
+        </div>
+        <div style="text-align: center; margin: 3rem 0; font-size: 1.1rem; line-height: 1.8;">
+          <p>Certificamos que</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">${cert.nome}</div>
+          <p>apresentou o trabalho intitulado</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">"${dados.titulo || cert.dados.titulo}"</div>
+          <div style="margin: 2rem 0; font-size: 1rem; line-height: 1.6;">
+            <p>no Grupo de Pesquisa em Estatística Espacial (GPS)</p>
+            <p>realizada no dia <strong>${dados.dataApresentacao || cert.dados.data}</strong></p>
+            <p>no <strong>${dados.local || 'Anfiteatro II do ICET'}</strong></p>
+            <p>com carga horária de <strong>${dados.horas || '1 hora de apresentação'}</strong>.</p>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin-top: 4rem; padding-top: 2rem; border-top: 2px solid #1a4d9c;">
+          <div style="text-align: center; width: 250px;">
+            <div style="border-top: 2px solid #1a4d9c; margin: 3rem auto 0.5rem; width: 200px;"></div>
+            <div style="font-weight: bold; color: #1a4d9c; margin-top: 0.5rem;">${dados.coordenador || 'Coordenador do GPS'}</div>
+            <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">Coordenador do GPS</div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #666;">
+          <p>Lavras, ${dados.dataEmissao || new Date().toLocaleDateString('pt-BR')}</p>
+        </div>
+      </div>
+    `;
+  } else if (cert.tipo === 'participacao_palestra') {
+    htmlCertificado = `
+      <div style="max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border: 3px solid #1a4d9c;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h1 style="font-size: 2.5rem; font-weight: bold; color: #1a4d9c; margin-bottom: 0.5rem; text-transform: uppercase;">Certificado de Participação</h1>
+          <p style="font-size: 1.2rem; color: #666;">Grupo de Pesquisa em Estatística Espacial - GPS</p>
+        </div>
+        <div style="text-align: center; margin: 3rem 0; font-size: 1.1rem; line-height: 1.8;">
+          <p>Certificamos que</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">${cert.nome}</div>
+          <p>participou da palestra intitulada</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">"${dados.titulo || cert.dados.titulo}"</div>
+          <div style="margin: 2rem 0; font-size: 1rem; line-height: 1.6;">
+            <p>ministrada por <strong>${dados.palestrante || cert.dados.palestrante}</strong></p>
+            <p>realizada no dia <strong>${dados.dataPalestra || cert.dados.data}</strong></p>
+            <p>no <strong>${dados.local || 'Anfiteatro II do ICET'}</strong></p>
+            <p>com carga horária de <strong>${dados.horas || '1 hora'}</strong>.</p>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin-top: 4rem; padding-top: 2rem; border-top: 2px solid #1a4d9c;">
+          <div style="text-align: center; width: 250px;">
+            <div style="border-top: 2px solid #1a4d9c; margin: 3rem auto 0.5rem; width: 200px;"></div>
+            <div style="font-weight: bold; color: #1a4d9c; margin-top: 0.5rem;">${dados.coordenador || 'Coordenador do GPS'}</div>
+            <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">Coordenador do GPS</div>
+          </div>
+          <div style="text-align: center; width: 250px;">
+            <div style="border-top: 2px solid #1a4d9c; margin: 3rem auto 0.5rem; width: 200px;"></div>
+            <div style="font-weight: bold; color: #1a4d9c; margin-top: 0.5rem;">${dados.palestrante || cert.dados.palestrante}</div>
+            <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">Palestrante</div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #666;">
+          <p>Lavras, ${dados.dataEmissao || new Date().toLocaleDateString('pt-BR')}</p>
+        </div>
+      </div>
+    `;
+  } else if (cert.tipo === 'participacao_gps') {
+    htmlCertificado = `
+      <div style="max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border: 3px solid #1a4d9c;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h1 style="font-size: 2.5rem; font-weight: bold; color: #1a4d9c; margin-bottom: 0.5rem; text-transform: uppercase;">Certificado de Participação</h1>
+          <p style="font-size: 1.2rem; color: #666;">Grupo de Pesquisa em Estatística Espacial - GPS</p>
+        </div>
+        <div style="text-align: center; margin: 3rem 0; font-size: 1.1rem; line-height: 1.8;">
+          <p>Certificamos que</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">${cert.nome}</div>
+          <p>é membro ativo do</p>
+          <div style="font-size: 1.8rem; font-weight: bold; color: #1a4d9c; margin: 1.5rem 0; text-decoration: underline;">Grupo de Pesquisa em Estatística Espacial (GPS)</div>
+          <div style="margin: 2rem 0; font-size: 1rem; line-height: 1.6;">
+            <p>desde <strong>${dados.dataInicio || cert.dados.dataInicio}</strong></p>
+            <p>participando ativamente das atividades de pesquisa,</p>
+            <p>apresentações de trabalhos e discussões científicas</p>
+            <p>do grupo.</p>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin-top: 4rem; padding-top: 2rem; border-top: 2px solid #1a4d9c;">
+          <div style="text-align: center; width: 250px;">
+            <div style="border-top: 2px solid #1a4d9c; margin: 3rem auto 0.5rem; width: 200px;"></div>
+            <div style="font-weight: bold; color: #1a4d9c; margin-top: 0.5rem;">${dados.coordenador || 'Coordenador do GPS'}</div>
+            <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">Coordenador do GPS</div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #666;">
+          <p>Lavras, ${dados.dataEmissao || new Date().toLocaleDateString('pt-BR')}</p>
+        </div>
+      </div>
+    `;
+  }
+  
+  printWindow.document.write(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>${tipoNome} - ${cert.nome}</title>
+      <style>
+        @media print {
+          body { margin: 0; }
+          @page { margin: 0; size: landscape; }
+        }
+        body { font-family: Arial, sans-serif; }
+      </style>
+    </head>
+    <body>
+      ${htmlCertificado}
+      <script>
+        window.onload = function() {
+          setTimeout(function() {
+            window.print();
+          }, 500);
+        };
+      </script>
+    </body>
+    </html>
+  `);
+  printWindow.document.close();
+}
+</script>
+```
+

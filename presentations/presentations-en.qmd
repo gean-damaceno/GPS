@@ -1,0 +1,65 @@
+---
+title: "Apresentações realizadas"
+---
+
+Segue abaixo a lista de apresentações realizadas pelo grupo.
+
+```{=html}
+<div class="presentations-container" style="max-width: 1000px; margin: 0 auto;">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Apresentador</th>
+        <th>Título</th>
+        <th>Local de Apresentação</th>
+        <th>Horas de Apresentação</th>
+        <th>Material da apresentação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>07 de maio de 2025</td>
+        <td>Prof. João Domingos Scalon</td>
+        <td>Autocorrelação espacial em dados geoespaciais</td>
+        <td>Anfiteatro II do ICET</td>
+        <td>1 hora de apresentação</td>
+        <td>
+          <a href="../material_apresentacao_pdf/apresentação.pdf" target="_blank" rel="noopener noreferrer">Abrir resumo</a> | 
+          <a href="../material_apresentacao_pdf/apresentação.pdf" download="apresentação.pdf">Download do resumo</a>
+        </td>
+      </tr>
+      <tr>
+        <td>08 de maio de 2025</td>
+        <td>Prof. Marcelo Silva de Oliveira</td>
+        <td>Estatística e Física</td>
+        <td>Anfiteatro II do ICET</td>
+        <td>1 hora de apresentação</td>
+      </tr>
+      <tr>
+        <td>21 de maio de 2025</td>
+        <td>Prof. Geraldo Magela da Cruz Pereira</td>
+        <td>Aprendizado de Máquina aplicado a previsão de séries temporais</td>
+        <td>Anfiteatro II do ICET</td>
+        <td>1 hora de apresentação</td>
+      </tr>
+      <tr>
+        <td>06 de junho de 2025</td>
+        <td>Mestrando: Gean Pereira Damaceno</td>
+        <td>Modelos de regressão para dados de áreas com valores extremos no estudo da incidência de dengue em Minas Gerais.</td>
+        <td>Anfiteatro II do ICET</td>
+        <td>1 hora de apresentação</td>
+      </tr>
+      <tr>
+        <td>25 de junho de 2025</td>
+        <td>Doutoranda:Valdeline de Paula M. Ferreira</td>
+        <td>Estudo de veranicos por meio do método Peaks Over Threhold (POT) : uma abordagem Bayesiana.</td>
+        <td>Anfiteatro II do ICET</td>
+        <td>1 hora de apresentação</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+```
+

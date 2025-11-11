@@ -1,0 +1,12 @@
+---
+title: "Por que Estudar Estatística Espacial?"
+---
+
+A Estatística Espacial é um campo de estudo que tem ganhado cada vez mais importância devido à crescente disponibilidade de dados geoespaciais e à necessidade de analisar e compreender padrões e relações espaciais em uma variedade de contextos, como saúde, ecologia, economia, urbanismo, entre outros.
+
+Alguns dos motivos pelos quais estudar Estatística Espacial são:
+
+- A importância de entender a relação entre variáveis espaciais;
+- A necessidade de modelar e prever fenômenos que ocorrem em locais específicos;
+- A necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;
+- A necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;
