@@ -5,25 +5,162 @@ title: "Membros Ativos do Grupo"
 Nosso grupo é composto por varios membros na qual contribuem para a pesquisa.
 
 
-## Membros 
+## Membros
 
-- João Domingos Scalon [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/0962359014791482)  
+### Coordenadores
 
-- Renato Ribeiro de Lima [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/7486689110603841)  
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**João Domingos Scalon**
 
-- Gean Pereira Damaceno [![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/9118771007853418)   
+Coordenador
 
-- Marcela Silva de Araujo  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/8522510498165639)  
+[![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/0962359014791482)
 
-- Elias Silva de Medeiros  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/5052910988468793)  
+*Descrição sobre o membro.*
+:::
+:::
 
-- Daví Barbosa Pereira de Sousa  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/4206431803366749)  
+---
 
-- Yasmin Beatriz Pereira Santana  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/9757990995362853)  
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Renato Ribeiro de Lima**
 
-- Alex Monito Nhancololo  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/1851789763743579)  
+Coordenador
 
-- Elpídio Ana Alberto  [![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/6266918529454234)  
+[![Lattes](lattes.jpg){width=22px}](http://lattes.cnpq.br/7486689110603841)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+### Secretário
+
+::: {.grid}
+::: {.g-col-4}
+![](../imagens_membros/gean.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Gean Pereira Damaceno** <a href="http://lattes.cnpq.br/9118771007853418"><img src="../imagens_emoje/lattes.png" width="22px"></a> | <a href="SEU_LINK_AQUI"><img src="../imagens_emoje/git.jpg" width="22px"></a> | <a href="mailto:SEU_EMAIL_AQUI"><img src="../imagens_emoje/email.png" width="22px"></a>
+
+Gean possui formação em Licenciatura em Matemática e Técnico em Administração pelo Instituto Federal do Piauí, além de ser Mestre em Estatística e Experimentação Agropecuária pela Universidade Federal de Lavras (UFLA). Atualmente, cursa graduação em Estatística na mesma instituição.
+No grupo de pesquisa, atua como secretário, sendo responsável pela organização e comunicação. Sua dissertação de mestrado teve como foco a análise de dados e estatística espacial, com modelagem robusta para outliers em casos de dengue em Minas Gerais.
+É membro do GPS desde 2020. Fora da academia, seus hobbies incluem dançar forró, jogar futebol e praticar vaquejada. É um entusiasta da análise de dados, da estatística espacial e da programação.
+:::
+:::
+
+---
+
+### Membros Ativos
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Marcela Silva de Araujo**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/8522510498165639)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Elias Silva de Medeiros**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/5052910988468793)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Daví Barbosa Pereira de Sousa**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/4206431803366749)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Yasmin Beatriz Pereira Santana**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/9757990995362853)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Alex Monito Nhancololo**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/1851789763743579)
+
+*Descrição sobre o membro.*
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-4}
+![](path/to/your/image.jpg){width="150px"}
+:::
+::: {.g-col-8}
+**Elpídio Ana Alberto**
+
+Membro Ativo
+
+[![Lattes](lattes.jpg){width=22px}](https://lattes.cnpq.br/6266918529454234)
+
+*Descrição sobre o membro.*
+:::
+:::  
 
 
 
