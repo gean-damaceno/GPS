@@ -11,7 +11,7 @@
     "href": "sobre/membros-ativos.html#membros",
     "title": "Membros Ativos do Grupo",
     "section": "Membros",
-    "text": "Membros\n\nJoão Domingos Scalon \nRenato Ribeiro de Lima \nGean Pereira Damaceno \nMarcela Silva de Araujo \nElias Silva de Medeiros \nDaví Barbosa Pereira de Sousa \nYasmin Beatriz Pereira Santana \nAlex Monito Nhancololo \nElpídio Ana Alberto"
+    "text": "Membros\n\nCoordenadores\n\n\n\n\n\nJoão Domingos Scalon\nCoordenador\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nRenato Ribeiro de Lima\nCoordenador\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\nSecretário\n\n\n\n\n\nGean Pereira Damaceno  |  | \nGean possui formação em Licenciatura em Matemática e Técnico em Administração pelo Instituto Federal do Piauí, além de ser Mestre em Estatística e Experimentação Agropecuária pela Universidade Federal de Lavras (UFLA). Atualmente, cursa graduação em Estatística na mesma instituição. No grupo de pesquisa, atua como secretário, sendo responsável pela organização e comunicação. Sua dissertação de mestrado teve como foco a análise de dados e estatística espacial, com modelagem robusta para outliers em casos de dengue em Minas Gerais. É membro do GPS desde 2020. Fora da academia, seus hobbies incluem dançar forró, jogar futebol e praticar vaquejada. É um entusiasta da análise de dados, da estatística espacial e da programação.\n\n\n\n\n\nMembros Ativos\n\n\n\n\n\nMarcela Silva de Araujo\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nElias Silva de Medeiros\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nDaví Barbosa Pereira de Sousa\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nYasmin Beatriz Pereira Santana\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nAlex Monito Nhancololo\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro.\n\n\n\n\n\n\n\n\nElpídio Ana Alberto\nMembro Ativo\n\n\n\nLattes\n\n\nDescrição sobre o membro."
   },
   {
     "objectID": "presentations/presentations-pt.html",
@@ -28,60 +28,25 @@
     "text": "Análise de Dados Espaciais com Aplicações em R\nResumo: Este livro apresenta técnicas de análise de dados espaciais aplicadas em R, voltadas para diferentes áreas de pesquisa.\nOutro artigo publicado pelo grupo\nResumo: Aqui entra o resumo em português do artigo, destacando os principais resultados e contribuições."
   },
   {
-    "objectID": "docs/about.html",
-    "href": "docs/about.html",
-    "title": "About",
+    "objectID": "conceitos/por-que-estudar-espacial.html",
+    "href": "conceitos/por-que-estudar-espacial.html",
+    "title": "Por que Estudar Estatística Espacial?",
     "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por 32 membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon – Lattes\n\nRenato Ribeiro de Lima – Lattes\n\nAna Silva\n\nCarlos Souza\n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
+    "text": "A Estatística Espacial é um campo de estudo que tem ganhado cada vez mais importância devido à crescente disponibilidade de dados geoespaciais e à necessidade de analisar e compreender padrões e relações espaciais em uma variedade de contextos, como saúde, ecologia, economia, urbanismo, entre outros.\nAlguns dos motivos pelos quais estudar Estatística Espacial são:\n\nA importância de entender a relação entre variáveis espaciais;\nA necessidade de modelar e prever fenômenos que ocorrem em locais específicos;\nA necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;\nA necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;"
   },
   {
-    "objectID": "docs/about.html#quem-é-o-gps",
-    "href": "docs/about.html#quem-é-o-gps",
-    "title": "About",
+    "objectID": "certificados/solicitar-certificado.html",
+    "href": "certificados/solicitar-certificado.html",
+    "title": "Solicitar Certificado",
     "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por 32 membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon – Lattes\n\nRenato Ribeiro de Lima – Lattes\n\nAna Silva\n\nCarlos Souza\n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
+    "text": "Solicite seu certificado de participação, apresentação ou membro do GPS. O coordenador receberá sua solicitação e gerará o certificado.\n\n\n\n  📋 Solicitar Certificado\n  \n  \n  \n  \n    \n      Tipo de Certificado:\n      \n        Selecione o tipo\n        Certificado de Participação em Palestra\n        Certificado de Apresentação\n        Certificado de Participação no GPS\n      \n    \n    \n    \n      Seu Nome Completo:\n      \n    \n    \n    \n      Email:\n      \n    \n    \n    \n    \n      \n        Título da Palestra:\n        \n      \n      \n        Data da Palestra:\n        \n      \n      \n        Nome do Palestrante:\n        \n      \n    \n    \n    \n    \n      \n        Título do Trabalho Apresentado:\n        \n      \n      \n        Data da Apresentação:\n        \n      \n    \n    \n    \n    \n      \n        Data de Início como Membro:\n        \n      \n    \n    \n    \n      Observações (opcional):\n      \n    \n    \n    Enviar Solicitação\n  \n\n\n\n  ✅ Seus Certificados Disponíveis\n  \n\n\n\n    \n    \n  `);\n  printWindow.document.close();\n}"
   },
   {
-    "objectID": "conceitos/o-que-e-espacial.html",
-    "href": "conceitos/o-que-e-espacial.html",
-    "title": "O que é a Estatística Espacial?",
+    "objectID": "certificados/certificado-particip_gps.html",
+    "href": "certificados/certificado-particip_gps.html",
+    "title": "Certificado de Participação do Grupo GPS",
     "section": "",
-    "text": "De acordo com Scalon (2024), a Estatística Espacial é um ramo da Estatística que se concentra na análise de dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões. A Estatística Espacial fornece informações para responder a questões científicas em que a informa- ção de localização espacial está presente nos dados e é relevante para as perguntas formuladas. O papel da teoria das probabilidades na Estatística Espacial é modelar a incerteza, tanto na teoria científica subjacente à questão, quanto nos dados espaciais provenientes das medições do processo espacial, que representa essa teoria científica (Cressie; Moores, 2023).\nDe acordo com Scalon (2024), os dados espaciais podem ser caracterizados da seguinte forma:\n• Dados de processos pontuais: são dados espaciais em que as próprias localizações dos eventos obser- vados representam o principal objeto de interesse;\n• Dados geoestatísticos: também chamados de dados de superfícies contínuas, representam variáveis observadas em locais específicos dentro de uma região de estudo, mas assumem continuidade espacial;\n• Dados de área: também conhecidos como dados de lattice ou dados de superfície discreta, são dados espaciais indexados a sub-regiões que constituem uma partição de um dominio contínuo."
-  },
-  {
-    "objectID": "certificados/certificados-en.html",
-    "href": "certificados/certificados-en.html",
-    "title": "Certificados de Participação da Palestra",
-    "section": "",
-    "text": "Preencha o formulário abaixo para gerar certificados de participação nas palestras. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Participação\n  \n  \n    \n      Título da Palestra:\n      \n    \n    \n    \n      Nome do Palestrante:\n      \n    \n    \n    \n      Data da Palestra:\n      \n    \n    \n    \n      Local:\n      \n    \n    \n    \n      Carga Horária:\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    \n      Participantes (um por linha ou separados por vírgula):\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
-  },
-  {
-    "objectID": "certificados/certificado-apresentacao.html",
-    "href": "certificados/certificado-apresentacao.html",
-    "title": "Certificado de Apresentação",
-    "section": "",
-    "text": "Preencha o formulário abaixo para gerar certificados de apresentação. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Apresentação\n  \n  \n    \n      Título do Trabalho:\n      \n    \n    \n    \n      Apresentadores (um por linha ou separados por vírgula):\n      \n    \n    \n    \n      Data da Apresentação:\n      \n    \n    \n    \n      Local:\n      \n    \n    \n    \n      Carga Horária:\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
-  },
-  {
-    "objectID": "agenda.html",
-    "href": "agenda.html",
-    "title": "Agenda de apresentações",
-    "section": "",
-    "text": "Agenda de apresentações\n\nSegue abaixo a agenda de apresentações realizadas pelo grupo.\n\n\n\n\n\nData\n\n\nApresentador\n\n\nTítulo\n\n\nLocal de Apresentação\n\n\nHoras de Apresentação\n\n\nMaterial da apresentação\n\n\n\n\n\n\n00/00/2025\n\n\nNome\n\n\ntitulo\n\n\nLocal\n\n\n14h–16h\n\n\nDownload"
-  },
-  {
-    "objectID": "About.html",
-    "href": "About.html",
-    "title": "About",
-    "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
-  },
-  {
-    "objectID": "About.html#quem-é-o-gps",
-    "href": "About.html#quem-é-o-gps",
-    "title": "About",
-    "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
+    "text": "Preencha o formulário abaixo para gerar certificados de participação como membro do GPS. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Participação no GPS\n  \n  \n    \n      Membros (um por linha ou separados por vírgula):\n      \n    \n    \n    \n      Data de Início (para todos os membros):\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
   },
   {
     "objectID": "artigos.html",
@@ -98,39 +63,74 @@
     "text": "Aqui você encontrará todos os artigos científicos publicados pelo grupo."
   },
   {
-    "objectID": "certificados/certificado-particip_gps.html",
-    "href": "certificados/certificado-particip_gps.html",
-    "title": "Certificado de Participação do Grupo GPS",
+    "objectID": "aboutt.html",
+    "href": "aboutt.html",
+    "title": "About",
     "section": "",
-    "text": "Preencha o formulário abaixo para gerar certificados de participação como membro do GPS. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Participação no GPS\n  \n  \n    \n      Membros (um por linha ou separados por vírgula):\n      \n    \n    \n    \n      Data de Início (para todos os membros):\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
   },
   {
-    "objectID": "certificados/solicitar-certificado.html",
-    "href": "certificados/solicitar-certificado.html",
-    "title": "Solicitar Certificado",
+    "objectID": "aboutt.html#quem-é-o-gps",
+    "href": "aboutt.html#quem-é-o-gps",
+    "title": "About",
     "section": "",
-    "text": "Solicite seu certificado de participação, apresentação ou membro do GPS. O coordenador receberá sua solicitação e gerará o certificado.\n\n\n\n  📋 Solicitar Certificado\n  \n  \n  \n  \n    \n      Tipo de Certificado:\n      \n        Selecione o tipo\n        Certificado de Participação em Palestra\n        Certificado de Apresentação\n        Certificado de Participação no GPS\n      \n    \n    \n    \n      Seu Nome Completo:\n      \n    \n    \n    \n      Email:\n      \n    \n    \n    \n    \n      \n        Título da Palestra:\n        \n      \n      \n        Data da Palestra:\n        \n      \n      \n        Nome do Palestrante:\n        \n      \n    \n    \n    \n    \n      \n        Título do Trabalho Apresentado:\n        \n      \n      \n        Data da Apresentação:\n        \n      \n    \n    \n    \n    \n      \n        Data de Início como Membro:\n        \n      \n    \n    \n    \n      Observações (opcional):\n      \n    \n    \n    Enviar Solicitação\n  \n\n\n\n  ✅ Seus Certificados Disponíveis\n  \n\n\n\n    \n    \n  `);\n  printWindow.document.close();\n}"
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
   },
   {
-    "objectID": "conceitos/por-que-estudar-espacial.html",
-    "href": "conceitos/por-que-estudar-espacial.html",
-    "title": "Por que Estudar Estatística Espacial?",
+    "objectID": "About.html",
+    "href": "About.html",
+    "title": "About",
     "section": "",
-    "text": "A Estatística Espacial é um campo de estudo que tem ganhado cada vez mais importância devido à crescente disponibilidade de dados geoespaciais e à necessidade de analisar e compreender padrões e relações espaciais em uma variedade de contextos, como saúde, ecologia, economia, urbanismo, entre outros.\nAlguns dos motivos pelos quais estudar Estatística Espacial são:\n\nA importância de entender a relação entre variáveis espaciais;\nA necessidade de modelar e prever fenômenos que ocorrem em locais específicos;\nA necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;\nA necessidade de analisar dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões;"
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
+  },
+  {
+    "objectID": "About.html#quem-é-o-gps",
+    "href": "About.html#quem-é-o-gps",
+    "title": "About",
+    "section": "",
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por vários membros.\n\n\n\n\n\n\n\nJoão Domingos Scalon \n\nRenato Ribeiro de Lima \n\nMarcelo Silva de Oliveira \n\n\n\n\n\nProjeto 1: Estatística Espacial aplicada ao Meio Ambiente\n\nProjeto 2: Modelagem de dados sociais\n\nProjeto 3: Visualização interativa de mapas\n\n\n\n\n\nGitHub: GPS\n\nEmail: geandamaceno030@gmail.com"
+  },
+  {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda de apresentações",
+    "section": "",
+    "text": "Agenda de apresentações\n\nSegue abaixo a agenda de apresentações realizadas pelo grupo.\n\n\n\n\n\nData\n\n\nApresentador\n\n\nTítulo\n\n\nLocal de Apresentação\n\n\nHoras de Apresentação\n\n\nMaterial da apresentação\n\n\n\n\n\n\n00/00/2025\n\n\nNome\n\n\ntitulo\n\n\nLocal\n\n\n14h–16h\n\n\nDownload"
+  },
+  {
+    "objectID": "certificados/certificado-apresentacao.html",
+    "href": "certificados/certificado-apresentacao.html",
+    "title": "Certificado de Apresentação",
+    "section": "",
+    "text": "Preencha o formulário abaixo para gerar certificados de apresentação. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Apresentação\n  \n  \n    \n      Título do Trabalho:\n      \n    \n    \n    \n      Apresentadores (um por linha ou separados por vírgula):\n      \n    \n    \n    \n      Data da Apresentação:\n      \n    \n    \n    \n      Local:\n      \n    \n    \n    \n      Carga Horária:\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
+  },
+  {
+    "objectID": "certificados/certificados-en.html",
+    "href": "certificados/certificados-en.html",
+    "title": "Certificados de Participação da Palestra",
+    "section": "",
+    "text": "Preencha o formulário abaixo para gerar certificados de participação nas palestras. Você pode gerar certificados para múltiplas pessoas de uma vez.\n\n\n\n  🔒 Acesso Restrito ao Coordenador\n  Esta área é restrita ao Coordenador do GPS. Por favor, insira a senha para continuar.\n  \n  \n    \n      Senha do Coordenador:\n      \n    \n    \n    \n      \n        Definir Nova Senha:\n        \n      \n      \n        Confirmar Senha:\n        \n      \n    \n    \n    Entrar\n    Definir Senha\n  \n  \n  \n\n\n\n  \n    Sair\n  \n  \n  \n    📋 Solicitações Pendentes\n    \n    Atualizar Lista\n  \n  \n  Gerador de Certificados de Participação\n  \n  \n    \n      Título da Palestra:\n      \n    \n    \n    \n      Nome do Palestrante:\n      \n    \n    \n    \n      Data da Palestra:\n      \n    \n    \n    \n      Local:\n      \n    \n    \n    \n      Carga Horária:\n      \n    \n    \n    \n      Nome do Coordenador:\n      \n    \n    \n    \n      Data de Emissão:\n      \n    \n    \n    \n      Participantes (um por linha ou separados por vírgula):\n      \n    \n    \n    Gerar Certificados\n    Ver Histórico\n    Baixar Todos os Certificados\n  \n\n\n\n  Histórico de Certificados Gerados\n  \n  Fechar Histórico"
+  },
+  {
+    "objectID": "conceitos/o-que-e-espacial.html",
+    "href": "conceitos/o-que-e-espacial.html",
+    "title": "O que é a Estatística Espacial?",
+    "section": "",
+    "text": "De acordo com Scalon (2024), a Estatística Espacial é um ramo da Estatística que se concentra na análise de dados que possuem uma localização, representada por coordenadas geográficas e/ou regiões. A Estatística Espacial fornece informações para responder a questões científicas em que a informa- ção de localização espacial está presente nos dados e é relevante para as perguntas formuladas. O papel da teoria das probabilidades na Estatística Espacial é modelar a incerteza, tanto na teoria científica subjacente à questão, quanto nos dados espaciais provenientes das medições do processo espacial, que representa essa teoria científica (Cressie; Moores, 2023).\nDe acordo com Scalon (2024), os dados espaciais podem ser caracterizados da seguinte forma:\n• Dados de processos pontuais: são dados espaciais em que as próprias localizações dos eventos obser- vados representam o principal objeto de interesse;\n• Dados geoestatísticos: também chamados de dados de superfícies contínuas, representam variáveis observadas em locais específicos dentro de uma região de estudo, mas assumem continuidade espacial;\n• Dados de área: também conhecidos como dados de lattice ou dados de superfície discreta, são dados espaciais indexados a sub-regiões que constituem uma partição de um dominio contínuo."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "GPS",
     "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por 32 membros. O GPS propõe que os membros façam apresentações de trabalhos, durante as quais possam tirar suas dúvidas, de modo que estejam preparados para apresentar em eventos.\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Anterior\n  \n  \n    \n    Próximo"
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira. Atualmente, o grupo é composto por professores, ex-alunos, pesquisadores externos, estudantes de pós-graduação e alunos de graduação, além de membros de diferentes áreas do conhecimento que se uniram ao GPS com o objetivo de aplicar e aprofundar técnicas de análise espacial. O GPS tem como propósito promover apresentações e discussões de trabalhos entre seus integrantes, além de incentivar a produção e publicação de artigos científicos, criando um ambiente de integração, troca de experiências e aprimoramento científico, com o intuito de preparar os participantes para apresentações em eventos acadêmicos e contribuir para o avanço da pesquisa na área de estatística espacial.\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Anterior\n  \n  \n    \n    Próximo"
   },
   {
     "objectID": "index.html#quem-é-o-gps",
     "href": "index.html#quem-é-o-gps",
     "title": "GPS",
     "section": "",
-    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2012 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.\nAtualmente, o grupo é composto por 32 membros. O GPS propõe que os membros façam apresentações de trabalhos, durante as quais possam tirar suas dúvidas, de modo que estejam preparados para apresentar em eventos.\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Anterior\n  \n  \n    \n    Próximo"
+    "text": "O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira. Atualmente, o grupo é composto por professores, ex-alunos, pesquisadores externos, estudantes de pós-graduação e alunos de graduação, além de membros de diferentes áreas do conhecimento que se uniram ao GPS com o objetivo de aplicar e aprofundar técnicas de análise espacial. O GPS tem como propósito promover apresentações e discussões de trabalhos entre seus integrantes, além de incentivar a produção e publicação de artigos científicos, criando um ambiente de integração, troca de experiências e aprimoramento científico, com o intuito de preparar os participantes para apresentações em eventos acadêmicos e contribuir para o avanço da pesquisa na área de estatística espacial.\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Anterior\n  \n  \n    \n    Próximo"
   },
   {
     "objectID": "papers/papers-en.html",

@@ -53,7 +53,8 @@
 
 /* Estilos para o carrossel de imagens */
 .carousel-container {
-  margin: 2rem auto;
+  max-width: 500px; /* Define a largura máxima do carrossel */
+  margin: 2rem auto; /* Centraliza o carrossel e adiciona margem */
   padding: 1rem;
 }
 
@@ -88,4 +89,11 @@
 .carousel-indicators button.active {
   opacity: 1;
 }
+
+/* Garante que nenhum elemento cause overflow horizontal */
+div, img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 
