@@ -1,14 +1,13 @@
 ---
 title: ""
-image: logo.png
+image: logo/ima_4.jpg
 about:
   template: trestles
   links:
     - text: GitHub
       icon: github
       url: "https://github.com/gean-damaceno/GPS/commit/7de66ba110c0a4042e2d163cce8ed6cbc5afb1ed"
-    - text: Email
-      url: "https://gean-damaceno.github.io/GPS/sobre/membros-ativos.html"
+
 comments: false
 ---
 
@@ -19,7 +18,7 @@ comments: false
 
 O Grupo de Pesquisa em Estatística Espacial (GPS) foi criado em 2015 pelos professores João Domingos Scalon, Renato Ribeiro de Lima e Marcelo Silva de Oliveira.
 Atualmente, o grupo é composto por professores, ex-alunos, pesquisadores externos, estudantes de pós-graduação e alunos de graduação, além de membros de diferentes áreas do conhecimento que se uniram ao GPS com o objetivo de aplicar e aprofundar técnicas de análise espacial.
-O GPS tem como propósito promover apresentações e discussões de trabalhos entre seus integrantes, além de incentivar a produção e publicação de artigos científicos, criando um ambiente de integração, troca de experiências e aprimoramento científico, com o intuito de preparar os participantes para apresentações em eventos acadêmicos e contribuir para o avanço da pesquisa na área de estatística espacial.
+
 
 ```{=html}
 <div class="carousel-container">
@@ -45,9 +44,6 @@ O GPS tem como propósito promover apresentações e discussões de trabalhos en
     </div>
     <div class="carousel-item">
       <img src="imagens/Logo.png" class="d-block w-100" alt="Logo GPS" style="max-height: 300px; object-fit: contain;">
-    </div>
-    <div class="carousel-item">
-      <img src="imagens/mapa_muni.png" class="d-block w-100" alt="Mapa Municipal" style="max-height: 300px; object-fit: contain;">
     </div>
     <div class="carousel-item">
       <img src="imagens/p_valor_arborizacao.png" class="d-block w-100" alt="P-valor de Arborização" style="max-height: 300px; object-fit: contain;">

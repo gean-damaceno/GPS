@@ -1,0 +1,17 @@
+---
+title: "Contatos"
+---
+
+
+Se você tiver alguma dúvida, sugestão ou quiser entrar em contato com o Grupo de Pesquisa em Estatística Espacial (GPS), utilize os contatos abaixo.
+
+
+<p style="text-align: center;">
+  <a href="mailto:scalon@ufla.br"><img src="imagens_emoje/email.png" width="30px"><br>scalon@ufla.br</a>
+</p>
+<p style="text-align: center;">
+  <a href="mailto:rrlima@ufla.br"><img src="imagens_emoje/email.png" width="30px"><br>rrlima@ufla.br</a>
+</p>
+<p style="text-align: center;">
+  <a href="mailto:geandamaceno030@gmail.com"><img src="imagens_emoje/email.png" width="30px"><br>geandamaceno030@gmail.com</a>
+</p>
