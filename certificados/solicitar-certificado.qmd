@@ -486,9 +486,6 @@ function gerarCertificadoParaDownload(cert, dados) {
       </script>
     </body>
     </html>
-  `);
-  printWindow.document.close();
-}
 </script>
 ```
 

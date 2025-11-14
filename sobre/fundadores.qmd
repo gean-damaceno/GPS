@@ -4,7 +4,7 @@ title: "Fundadores do Grupo de Pesquisa GPS"
 
 ::: {.grid .align-items-center}
 ::: {.g-col-4}
-![](../imagens_membros/prof_scalon.jpg){width="80px"}
+![](../imagens_membros/prof_scalon.jpg){width="100px"}
 :::
 ::: {.g-col-8}
 **João Domingos Scalon** <a href="http://lattes.cnpq.br/0962359014791482"><img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -15,7 +15,7 @@ title: "Fundadores do Grupo de Pesquisa GPS"
 
 ::: {.grid .align-items-center}
 ::: {.g-col-4}
-![](../imagens_membros/prof_renato.jpg){width="80px"}
+![](../imagens_membros/prof_renato.jpg){width="100px"}
 :::
 ::: {.g-col-8}
 **Renato Ribeiro de Lima** <a href="http://lattes.cnpq.br/7486689110603841"><img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -26,7 +26,7 @@ title: "Fundadores do Grupo de Pesquisa GPS"
 
 ::: {.grid .align-items-center}
 ::: {.g-col-4}
-![](../imagens_membros/prof_marcelo.jpg){width="80px"}
+![](../imagens_membros/prof_marcelo.jpg){width="100px"}
 :::
 ::: {.g-col-8}
 **Marcelo Silva de Oliveira** <a href="http://lattes.cnpq.br/9176230219066879"><img src="../imagens_emoje/lattes.png" width="22px"></a>

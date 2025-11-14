@@ -57,6 +57,9 @@ website:
             href: certificados/certificado-apresentacao.qmd
           - text: "Certificado de participação do grupo GPS"
             href: certificados/certificado-particip_gps.qmd
+          - text: "---"
+          - text: "Área do Administrador"
+            href: certificados/admin.qmd
 
       - text: "Apresentações"
         menu:

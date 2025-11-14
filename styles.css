@@ -96,19 +96,6 @@ div, img {
   box-sizing: border-box;
 }
 
-.quarto-about-jolla {
-  display: flex !important;
-  flex-wrap: wrap !important; /* Permite que os itens quebrem a linha em telas menores */
-}
 
-.quarto-about-jolla .about-entity {
-  flex: 0 0 20% !important; /* Não cresce, não encolhe, largura base de 20% */
-  max-width: 20% !important;
-}
-
-.quarto-about-jolla .about-contents {
-  flex: 1 1 80% !important; /* Cresce, encolhe, largura base de 80% */
-  max-width: 80% !important;
-}
 
 
