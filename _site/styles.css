@@ -1,57 +1,61 @@
-/* css styles */
+/* ============================================================
+   ESTILOS GERAIS DO SITE
+   ============================================================ */
 
 /* Cor de fundo da barra de navegação */
 .navbar {
- background-color: #1a4d9c !important; /* escolha a cor */
+  background-color: #1a4d9c !important;
 }
 
-/* Cor dos links da navbar - REGRA CORRIGIDA */
+/* Cor dos links da navbar */
 .navbar-nav .nav-link {
- color: white !important; /* cor do texto */
+  color: white !important;
 }
 
-/* Cor do link ativo */
+/* Cor do link ativo na navbar */
 .navbar-nav .nav-link.active {
- color: #ffd700 !important; /* exemplo: dourado */
+  color: #ffd700 !important;
 }
 
-/* Opcional: Estilo explícito para os itens do dropdown */
+/* Dropdown */
 .dropdown-item {
-  color: #212529; /* Garante que o texto do dropdown seja escuro */
+  color: #212529;
 }
 
-
+/* Sidebar */
 .sidebar-logo {
- max-width: 150px;
+  max-width: 150px;
 }
 
 .sidebar-title {
- font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
+/* Tabelas */
 .platform-table td {
- vertical-align: middle;
+  vertical-align: middle;
 }
 
 .platform-table td > div.sourceCode {
- margin-top: 0.3rem;
- margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
-/* Em styles.css */
-
-/* Estilo para os textos descritivos dentro dos menus */
+/* Descrição dentro dos menus */
 .dropdown-menu .dropdown-item-text {
-  font-size: 0.85em;         /* Deixa a fonte um pouco menor */
-  color: #6c757d;            /* Cor cinza para dar menos destaque */
-  padding-left: 1.5rem;       /* Alinha a descrição com o texto do link acima */
-  padding-top: 0;             /* Remove o espaçamento extra em cima */
-  padding-bottom: 0.5rem;     /* Adiciona um espaço abaixo da descrição */
-  white-space: normal;        /* Permite que o texto quebre em várias linhas */
-  cursor: default;            /* Garante que o mouse não mude para o cursor de link */
+  font-size: 0.85em;
+  color: #6c757d;
+  padding-left: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  white-space: normal;
+  cursor: default;
 }
 
-/* Estilos para o carrossel de imagens */
+/* ============================================================
+   CARROSSEL
+   ============================================================ */
+
 .carousel-container {
   margin: 2rem auto;
   padding: 1rem;
@@ -89,3 +93,66 @@
   opacity: 1;
 }
 
+/* ============================================================
+   AUMENTAR LARGURA DO TEXTO / LAYOUT FULL
+   ============================================================ */
+
+main.content {
+  max-width: 1200px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 1200px !important;
+}
+
+/* ============================================================
+   LAYOUT DOS MEMBROS — FOTO ESQUERDA / TEXTO DIREITA
+   ============================================================ */
+
+.member-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* Foto do membro */
+.member-photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Texto */
+.member-text {
+  flex: 1;
+  max-width: 1200px;
+}
+
+/* ============================================================
+   RESPONSIVIDADE (CELULAR)
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .member-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .member-photo img {
+    width: 160px;
+  }
+
+  .member-text {
+    text-align: justify;
+  }
+
+  main.content {
+    max-width: 100% !important;
+    padding: 0 1rem;
+  }
+}

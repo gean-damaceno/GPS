@@ -1,6 +1,11 @@
 ---
 title: "Membros Ativos do Grupo"
+format:
+  html:
+    page-layout: full
+    include-in-header: fullwidth.html
 ---
+
 
 Nosso grupo é composto por varios membros na qual contribuem para a pesquisa.
 
@@ -11,7 +16,7 @@ Nosso grupo é composto por varios membros na qual contribuem para a pesquisa.
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/prof_scalon.jpg){width="150px"}
+![](../imagens_membros/prof_scalon.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **João Domingos Scalon** <a href="http://lattes.cnpq.br/0962359014791482"><img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -24,7 +29,7 @@ Graduado em Estatística pela Universidade Federal de São Carlos (1984), mestre
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/prof_renato.jpg){width="150px"}
+![](../imagens_membros/prof_renato.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 
@@ -40,7 +45,7 @@ Possui graduação em Zootecnia pela Universidade Federal de Lavras (1993), mest
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/gean.jpg){width="150px"}
+![](../imagens_membros/gean.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Gean Pereira Damaceno** <a href="http://lattes.cnpq.br/9118771007853418"><img src="../imagens_emoje/lattes.png" width="22px"></a> | <a href="https://github.com/gean-damaceno"><img src="../imagens_emoje/git.jpg" width="22px"></a> | <a href="mailto:geandamaceno030@gmail.com"><img src="../imagens_emoje/email.png" width="22px"></a> <a href="https://gean-damaceno.github.io/site-gean/about.html"><img src="../imagens_emoje/website.png" width="22px"></a>
@@ -57,7 +62,7 @@ No grupo de pesquisa, atua como secretário, sendo responsável pela organizaç�
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/yasmin.jpg){width="150px"}
+![](../imagens_membros/yasmin.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 
@@ -75,7 +80,7 @@ Sua pesquisa e atuação se concentram nas áreas de Estatística Experimental e
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/prof_marcelo.jpg){width="150px"}
+![](../imagens_membros/prof_marcelo.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 
@@ -97,7 +102,7 @@ Marcelo é esposo de Nilma, pai de Hiel e Reuel, sogro de Fabiane e Rafaela, e a
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/viviane.jpg){width="150px"}
+![](../imagens_membros/viviane.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Viviane Costa Silva**<a href="http://lattes.cnpq.br/9131629811331022"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -110,7 +115,7 @@ Possui graduação em Estatística pela Universidade Estadual da Paraíba (UEPB)
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/marcela.jpg){width="150px"}
+![](../imagens_membros/marcela.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Marcela Silva de Araujo**<a href="http://lattes.cnpq.br/8522510498165639"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -123,7 +128,7 @@ Mestranda em Estatística e Experimentação Agropecuária pela Universidade Fed
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/elias.jpg){width="150px"}
+![](../imagens_membros/elias.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Elias Manensa Sabe**<a href="https://lattes.cnpq.br/5052910988468793"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -136,7 +141,7 @@ Possui graduação em Ensino de Matemática pela Universidade Pedagógica (UP), 
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/davi.jpg){width="150px"}
+![](../imagens_membros/davi.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Daví Barbosa Pereira de Sousa**<a href="http://lattes.cnpq.br/4206431803366749"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -152,7 +157,7 @@ Tem como passatempos o karatê, leitura e viagens.
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/alex_nhancololo.jpg){width="150px"}
+![](../imagens_membros/alex_nhancololo.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Alex Monito Nhancololo**<a href="http://lattes.cnpq.br/1851789763743579"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -165,7 +170,7 @@ A. M. Nhancololo is a Ph.D. student in Statistics and Probability at the Institu
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/elpidio.jpg){width="150px"}
+![](../imagens_membros/elpidio.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Elpídio Ana Alberto**<a href="https://lattes.cnpq.br/6266918529454234"> <img src="../imagens_emoje/lattes.png" width="22px"></a>  
@@ -178,7 +183,7 @@ Possui licenciatura em Ensino de Agropecuária com Habilitação em Extensão Ru
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/mateus.jpg){width="150px"}
+![](../imagens_membros/mateus.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Mateus Santos Peixoto**<a href="http://lattes.cnpq.br/0143729271565332"> <img src="../imagens_emoje/lattes.png" width="22px"></a>
@@ -196,7 +201,7 @@ Tem como hobbies o judô, o jiu-jítsu, viagens, filmes, séries e tecnologia.
 
 ::: {.grid}
 ::: {.g-col-4}
-![](../imagens_membros/welson.jpg){width="150px"}
+![](../imagens_membros/welson.jpg){width="200px"}
 :::
 ::: {.g-col-8}
 **Wélson Antônio de Oliveira**<a href="http://lattes.cnpq.br/1524496378730717"> <img src="../imagens_emoje/lattes.png" width="22px"></a>

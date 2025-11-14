@@ -2,11 +2,14 @@ project:
   type: website
   output-dir: docs
   resources:
+    - imagens_membros
     - keybase.txt
     - resume.pdf
     - cv.pdf
     - imagens
     - material_apresentacao_pdf
+
+
 
 website:
   title: "GPS"
